@@ -176,6 +176,7 @@
     <Content Include="Content\img\K19.png" />
     <Content Include="Content\menu.css" />
     <Content Include="favicon.ico" />
+    <Content Include="Files_Content_GitIgnore\HtmlPage1.html" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -268,7 +269,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Files_Content_GitIgnore\" />
     <Folder Include="System\Data\" />
     <Folder Include="Views\Produtoes\" />
   </ItemGroup>
