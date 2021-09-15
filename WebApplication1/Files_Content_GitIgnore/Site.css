@@ -1,0 +1,100 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+img {
+    border: 0;
+    width: 35px !important;
+    margin-top: 8px !important;
+}
+
+header,
+#main {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid #666666;
+    padding: 0 0 10px 0;
+}
+
+headerspan {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+headerimg {
+    height: 80px;
+    margin: 0 20px 0 0;
+    vertical-align: middle;
+}
+
+footer {
+    border-top: 1px solid #666666;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 10px;
+    background-color: black;
+    color: #b1b0b0;
+    width: 1220px;
+    margin: 0 auto;
+    padding: 3px 5px;
+    /*line-height: 30px;*/
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+#toolbar {
+    background: #999999;
+    width: 1220px;
+    margin: 1px auto;
+    padding: 3px 5px;
+}
+
+#toolbar * {
+    margin: 3px 5px;
+}
+
+.alinhaBarraBusca{
+    margin-top: 10px !important;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: hsl(0, 0%, 95%);
+    width: 1220px !important;
+}
+
+.table-hover > tbody > tr:hover {
+    background-color: #D3D3D3 !important;
+}
+
