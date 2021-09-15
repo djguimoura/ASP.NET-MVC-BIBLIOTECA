@@ -1,0 +1,40 @@
+﻿@*@using K19.Models;*@
+@model IEnumerable<K19.Models.Produto>
+@{
+    ViewBag.Title = "Lista";
+}
+
+<h2>Lista</h2>
+
+@if (TempData["Mensagem"] != null)
+{
+    <div style="color: blue;">@TempData["Mensagem"]</div>
+}
+
+<table class="table table-responsive table-hover">
+    <tr>
+        <th>@Html.DisplayNameFor(m => m.Nome)</th>
+        <th>@Html.DisplayNameFor(m => m.Descricao)</th>
+        <th>@Html.DisplayNameFor(m => m.Preco)</th>
+        <th>Ações</th>
+    </tr>
+    @foreach (var produto in Model)
+    {
+    <tr>
+        <td>@Html.DisplayFor(m => produto.Nome)</td>
+        <td>@Html.DisplayFor(m => produto.Descricao)</td>
+        <td>@Html.DisplayFor(m => produto.Preco)</td>
+        <td>
+            @Html.ActionLink("Editar", "Editar", new { id = produto.ProdutoID }) |
+            @Html.ActionLink("Detalhes", "Detalhes", new { id = produto.ProdutoID }) |
+            @Html.ActionLink("Deletar", "Deletar", new { id = produto.ProdutoID }) |
+            @Html.ActionLink("Adicionar ao carrinho", "Adicionar", "Carrinho", new { id = produto.ProdutoID }, null)
+        </td>
+    </tr>
+    }
+</table>
+
+<div>
+    @Html.ActionLink("create novo produto", "Cadastra")
+</div>
+

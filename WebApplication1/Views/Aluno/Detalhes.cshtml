@@ -1,0 +1,24 @@
+﻿@model K19.Models.Aluno
+
+@{
+    ViewBag.Title = "Detalhes";
+}
+
+@section Toolbar {
+    <input type="button" value="Remover este cadastro" />
+}
+
+<h2>Detalhes</h2>
+
+<p>
+    AlunoID: @Model.AlunoID
+</p>
+
+<p>
+    Nome: @Model.Nome
+</p>
+
+<p>
+    Email: @Model.Email
+</p>
+

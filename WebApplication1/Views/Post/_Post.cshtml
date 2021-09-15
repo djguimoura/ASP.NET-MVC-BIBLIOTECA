@@ -1,0 +1,13 @@
+﻿@model K19.Models.Post
+
+<article>
+    <header>
+        <h1>@Model.Titulo</h1>
+        <div><small>@Model.Autor - @Model.Data.ToString("dd/MM/yyyy")</small></div>
+    </header>
+    <p>@Model.Texto</p>
+    <div>
+        Categoria: @Model.Categoria
+    </div>
+</article><br />
+

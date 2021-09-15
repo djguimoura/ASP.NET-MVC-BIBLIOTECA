@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    string mensagem = "Seu número da sorte é: " + @ViewBag.NumeroDaSorte;
+}
+
+<h2>Número da Sorte</h2>
+
+@for (int i = 1; i <= 5; i++)
+{
+    <h3>Primeira base, sequência: @i</h3>
+    <h4>@mensagem</h4>
+}
+
+@for (int i = 6; i <= 10; i++)
+{
+    <h3>Segunda base, sequência:  @i</h3>
+    <h4>Seu número da sorte é: @ViewBag.NumeroDaSorte2</h4>
+}
+

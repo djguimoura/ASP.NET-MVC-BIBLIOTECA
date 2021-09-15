@@ -1,0 +1,45 @@
+﻿@model IEnumerable<K19.Models.Livro>
+
+@{
+    ViewBag.Title = "Livros";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("create novo livro: ", "create")
+</p>
+<table class="table table-dark table-hover table-info table-warning">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Editora.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Preco)
+        </th>
+        <th>Ações</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Editora.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Preco)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.LivroId }) |
+            @Html.ActionLink("Detalhes", "Details", new { id = item.LivroId }) |
+            @Html.ActionLink("Deletar", "Delete", new { id = item.LivroId })
+        </td>
+    </tr>
+}
+
+</table>

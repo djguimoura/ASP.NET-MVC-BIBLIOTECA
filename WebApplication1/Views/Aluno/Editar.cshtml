@@ -1,0 +1,17 @@
+﻿@model K19.Models.Aluno
+@{
+    ViewBag.Title = "Editar";
+}
+
+@section Toolbar {
+    <input type="button" value="Remover este cadastro" />   
+}
+
+<h2>Editar</h2>
+@*Helper BeginForm seria o mesmo que <form action="/Aluno/Editar" method="post">, faz o papel do <form> e trabalha suas requisições das Controllers, Action, entre outros Parâmetros*@
+@using (Html.BeginForm())
+{
+    //o Helper EditorForModel renderiza todas as propriedades setadas na model com um form de maneira automatica
+    @Html.EditorForModel()
+    <input type="submit" value="Salvar" />
+}

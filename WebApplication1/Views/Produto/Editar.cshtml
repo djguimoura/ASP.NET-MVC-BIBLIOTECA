@@ -1,0 +1,21 @@
+﻿@model K19.Models.Produto
+@{
+    ViewBag.Title = "Editar";
+}
+
+<h2>Editar</h2>
+
+
+<!--INCLUIR VALIDAÇÕES NOS CAMPOS-->
+@using (Html.BeginForm())
+{
+    @Html.EditorFor(m => m.ProdutoID)
+    <div>@Html.LabelFor(m => m.Nome) </div>
+    @Html.EditorFor(m => m.Nome)
+    <div> @Html.LabelFor(m => m.Descricao) </div>
+    @Html.EditorFor(m => m.Descricao)
+    <div> @Html.LabelFor(m => m.Preco) </div>
+    @Html.EditorFor(m => m.Preco)
+    
+    <div><input type="submit" value="Editar"/></div>
+}

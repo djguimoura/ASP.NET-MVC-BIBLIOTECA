@@ -1,0 +1,106 @@
+﻿@using K19.Models;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Aplicação do Gui Moura</title>
+    @*<link href="~/Content/Site.css" rel="stylesheet" />*@
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <img src="~/Content/img/K19.png" alt=" Logo vertical da K19" title="K19 Treinamentos" />
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Aplicação do Gui Moura", "Index", "K19", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "K19")</li>
+                    <li>@Html.ActionLink("Sobre", "Sobre", "Home")</li>
+                    <li>@Html.ActionLink("Contato", "Contato", "Home")</li>
+                    <li>@Html.ActionLink("Editoras", "Index", "Editoras")</li>
+                    <li>@Html.ActionLink("Livros", "Index", "Livroes")</li>
+                </ul>
+                <!--DROPDOWN PAROU DE FUNCIONAR, VERIFICAR-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">Páginas Testes <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("Data e hora", "Agora", "Relogio")</li>
+                            <li class="divider"></li>
+                            <li>@Html.ActionLink("Detalhes Aluno", "Detalhes", "Aluno")</li>
+                            <li>@Html.ActionLink("Listagem Aluno", "Lista", "Aluno")</li>
+                            <li>@Html.ActionLink("Editar Aluno", "Editar", "Aluno")</li>
+                            <li class="divider"></li>
+                            <li>@Html.ActionLink("Editar Usuario", "Editar", "Usuario")</li>
+                            <li class="divider"></li>
+                            <li>@Html.ActionLink("Lista de Posts", "Lista", "Post")</li>
+                            <li class="divider"></li>
+                            <li>@Html.ActionLink("create Produtos", "Cadastra", "Produto")</li>
+                            <li>@Html.ActionLink("Lista de Produtos", "Lista", "Produto")</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>@Html.ActionLink("Login", "Formulario", "Autenticador")</li>
+                    <li>
+                    </li>
+                </ul>
+                <!--CARRINHO-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        @{
+                            Carrinho carrinho = Session["Carrinho"] as Carrinho;
+
+                            if (carrinho != null)
+                            {
+                                @Html.ActionLink("Meu carrinho (" + @carrinho.Produtos.Count + " produtos)", "Index", "Carrinho")
+                            }
+                        }
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </header>
+    <div id="toolbar">
+        @if (IsSectionDefined("Toolbar"))
+        {
+            @RenderSection("Toolbar", required: false);
+        }
+        else
+        {
+            <input class="alinhaBarraBusca" type="button" value="Veja o seu número da sorte" onclick="location.href='/K19/Index'" />
+        }
+        <div style="text-align: right; margin: 0">
+            @if (User.Identity.IsAuthenticated)
+            {
+                @: Olá @User.Identity.Name, @Html.ActionLink("Sair", "Sair", "Autenticador")
+            }
+        </div>
+    </div>
+
+    <section class="container body-content">
+
+        @RenderBody()
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </section>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

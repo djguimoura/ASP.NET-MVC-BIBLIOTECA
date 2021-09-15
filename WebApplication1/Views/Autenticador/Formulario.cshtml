@@ -1,0 +1,41 @@
+﻿@model K19.Models.Usuario
+
+@{
+    ViewBag.Title = "Formulario";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Entrar", "Autenticador"))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Usuario</legend>
+
+        <div>
+            @Html.LabelFor(m => m.Email)
+        </div>
+        <div>
+            @Html.EditorFor(m => m.Email)
+            @Html.ValidationMessageFor(m => m.Email)
+        </div>
+
+        <div>
+            @Html.LabelFor(m => m.Senha)
+        </div>
+        <div>
+            @Html.EditorFor(m => m.Senha)
+            @Html.ValidationMessageFor(m => m.Senha)
+        </div>
+
+        <div>
+            <input type="submit" value="Logar" />
+        </div>
+    </fieldset>
+}
+
+@section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }
+
