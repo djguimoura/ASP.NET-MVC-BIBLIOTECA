@@ -45,10 +45,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -145,13 +145,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201908061459220_teste.cs" />
-    <Compile Include="Migrations\201908061459220_teste.Designer.cs">
-      <DependentUpon>201908061459220_teste.cs</DependentUpon>
+    <Compile Include="Migrations\202209141752457_InitialCreate.cs" />
+    <Compile Include="Migrations\202209141752457_InitialCreate.Designer.cs">
+      <DependentUpon>202209141752457_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201908091838273_teste2.cs" />
-    <Compile Include="Migrations\201908091838273_teste2.Designer.cs">
-      <DependentUpon>201908091838273_teste2.cs</DependentUpon>
+    <Compile Include="Migrations\202209141949273_UpdateDatabase.cs" />
+    <Compile Include="Migrations\202209141949273_UpdateDatabase.Designer.cs">
+      <DependentUpon>202209141949273_UpdateDatabase.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Aluno.cs" />
@@ -175,6 +175,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\img\K19.png" />
     <Content Include="Content\menu.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="Files_Content_GitIgnore\bootstrap-grid.css" />
     <Content Include="Files_Content_GitIgnore\bootstrap-grid.min.css" />
@@ -188,7 +189,6 @@
     <Content Include="Files_Content_GitIgnore\menu.css" />
     <Content Include="Files_Content_GitIgnore\Site.css" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -205,18 +205,18 @@
     <Content Include="Scripts\bootstrap.js.map" />
     <Content Include="Scripts\bootstrap.bundle.min.js.map" />
     <Content Include="Scripts\bootstrap.bundle.js.map" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-reboot.min.css.map" />
-    <Content Include="Content\bootstrap-reboot.css.map" />
-    <Content Include="Content\bootstrap-grid.min.css.map" />
-    <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="Files_Content_GitIgnore\bootstrap-grid.css.map" />
     <Content Include="Files_Content_GitIgnore\bootstrap-grid.min.css.map" />
     <Content Include="Files_Content_GitIgnore\bootstrap-reboot.css.map" />
     <Content Include="Files_Content_GitIgnore\bootstrap-reboot.min.css.map" />
     <Content Include="Files_Content_GitIgnore\bootstrap.css.map" />
     <Content Include="Files_Content_GitIgnore\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -300,11 +300,11 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201908061459220_teste.resx">
-      <DependentUpon>201908061459220_teste.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202209141752457_InitialCreate.resx">
+      <DependentUpon>202209141752457_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201908091838273_teste2.resx">
-      <DependentUpon>201908091838273_teste2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202209141949273_UpdateDatabase.resx">
+      <DependentUpon>202209141949273_UpdateDatabase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

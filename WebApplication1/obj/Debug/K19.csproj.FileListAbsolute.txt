@@ -112,3 +112,42 @@ F:\Guilherme\Cursos_Guilherme\Back End e Frameworks\K19\k19-k32_Prog_ASPnet_MVC\
 F:\Guilherme\Cursos_Guilherme\Back End e Frameworks\K19\k19-k32_Prog_ASPnet_MVC\Projetos\VISUAL STUDIO\ProjetoMVC_CursoK19_Biblioteca\K19WebAppMvc\ASP.NET-MVC-BIBLIOTECA\WebApplication1\obj\Debug\K19.csproj.CopyComplete
 F:\Guilherme\Cursos_Guilherme\Back End e Frameworks\K19\k19-k32_Prog_ASPnet_MVC\Projetos\VISUAL STUDIO\ProjetoMVC_CursoK19_Biblioteca\K19WebAppMvc\ASP.NET-MVC-BIBLIOTECA\WebApplication1\obj\Debug\K19.dll
 F:\Guilherme\Cursos_Guilherme\Back End e Frameworks\K19\k19-k32_Prog_ASPnet_MVC\Projetos\VISUAL STUDIO\ProjetoMVC_CursoK19_Biblioteca\K19WebAppMvc\ASP.NET-MVC-BIBLIOTECA\WebApplication1\obj\Debug\K19.pdb
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\obj\Debug\K19.csproj.AssemblyReference.cache
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\obj\Debug\K19.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\obj\Debug\K19.pdb
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\K19.dll.config
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\K19.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\K19.pdb
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\EntityFramework.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\EntityFramework.SqlServer.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.Helpers.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.Mvc.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.Optimization.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.Razor.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.WebPages.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.WebPages.Razor.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\WebGrease.dll
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\EntityFramework.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\EntityFramework.SqlServer.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.Helpers.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.Mvc.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.Optimization.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.Razor.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.WebPages.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Web.WebPages.Razor.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\Antlr3.Runtime.pdb
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\obj\Debug\K19.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\obj\Debug\K19.csproj.CopyComplete
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\obj\Debug\K19.Migrations.InitialCreate.resources
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\obj\Debug\K19.csproj.GenerateResource.cache
+C:\Users\guilherme.moura\Source\Repos\ASP.NET-MVC-BIBLIOTECA\WebApplication1\obj\Debug\K19.Migrations.UpdateDatabase.resources

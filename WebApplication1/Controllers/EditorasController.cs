@@ -36,7 +36,7 @@ namespace K19.Controllers
         }
 
         // GET: Editoras/create
-        public ActionResult create()
+        public ActionResult Cadastrar()
         {
             return View();
         }
@@ -46,7 +46,7 @@ namespace K19.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult create([Bind(Include = "EditoraId,Nome,Email")] Editora editora)
+        public ActionResult Cadastrar([Bind(Include = "EditoraId,Nome,Email")] Editora editora)
         {
             if (ModelState.IsValid)
             {

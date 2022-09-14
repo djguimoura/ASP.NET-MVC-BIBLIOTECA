@@ -14,7 +14,7 @@ namespace K19.Models
         public string Nome { get; set; }
         [Required(ErrorMessage = "Esse campo é obrigatório")]
         public string Email { get; set; }
-        [DataType(DataType.Password)]
-        public string Senha { get; set; }
+        //[DataType(DataType.Password)]
+        //public string Senha { get; set; }
     }
 }

@@ -23,7 +23,8 @@ namespace K19.Models
 
         [Display(Name ="Preço do produto")]
         [Required(ErrorMessage ="Esse campo é obrigatório")]
-        [Range(1, 99, ErrorMessage ="O preço de Venda deve estar entre " + "10,00 e 99999,99.")]
+        //VALORES QUEBRADOS NÃO ESTÃO SENDO PERMITIDOS POR VALIDAÇÃO "The value '99999.99' is not valid for Preço do produto."
+        [Range(minimum: 10.00, maximum: 99999.99, ErrorMessage = "O preço de Venda deve estar entre " + "10,00 e 99999,99.")]
         public double Preco { get; set; }
     }
 }

@@ -14,7 +14,7 @@ namespace K19.Controllers
         {
             ICollection<Post> posts = new List<Post>();
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 5; i++)
             {
                 posts.Add(new Post
                 {
